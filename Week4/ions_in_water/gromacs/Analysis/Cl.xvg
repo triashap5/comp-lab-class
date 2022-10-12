@@ -1,0 +1,71 @@
+# This file was created Tue Oct 11 20:32:59 2022
+# Created by:
+#                       :-) GROMACS - gmx msd, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/tp2353/comp-lab-class/Week4/ions_in_water/gromacs
+# Command line:
+#   gmx_mpi msd -f unwrap.xtc -s step5_9.tpr -o Cl.xvg
+# gmx msd is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Mean Square Displacement"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "MSD (nm\S2\N)"
+@TYPE xy
+# MSD gathered over 1000 ps with 51 restarts
+# Diffusion constants fitted from time 100 to 900 ps
+# D[       CLA] = 1.8963 (+/- 1.8770) (1e-5 cm^2/s)
+         0           0
+        20    0.415538
+        40    0.819886
+        60     1.21338
+        80      1.5406
+       100     1.84853
+       120     2.13879
+       140     2.45579
+       160     2.83493
+       180     3.21405
+       200     3.65373
+       220     4.10135
+       240     4.51609
+       260     4.85693
+       280     5.20594
+       300      5.5086
+       320     5.78908
+       340     6.15787
+       360     6.48913
+       380       6.867
+       400     7.21375
+       420     7.55544
+       440     7.82234
+       460     8.13856
+       480     8.39718
+       500     8.62358
+       520     8.74398
+       540     8.86975
+       560     9.05062
+       580     9.15489
+       600      9.2395
+       620     9.34271
+       640     9.53939
+       660     9.58326
+       680     9.76779
+       700     9.99008
+       720     10.1406
+       740      10.333
+       760     10.4656
+       780      10.651
+       800      10.763
+       820     10.8981
+       840      10.914
+       860     10.7046
+       880     10.5984
+       900     10.5849
+       920      11.047
+       940      11.843
+       960     12.6007
+       980      13.601
+      1000     14.7664

@@ -1,0 +1,48 @@
+# This file was created Tue Sep 27 15:27:31 2022
+# Created by:
+#                      :-) GROMACS - gmx energy, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/tp2353/comp-lab-class/Week3
+# Command line:
+#   gmx_mpi energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  301.187836
+    1.000000  302.102783
+    2.000000  300.355164
+    3.000000  301.637360
+    4.000000  302.290405
+    5.000000  299.647430
+    6.000000  299.907562
+    7.000000  300.560486
+    8.000000  299.054962
+    9.000000  301.589020
+   10.000000  303.534943
+   11.000000  298.471771
+   12.000000  301.132996
+   13.000000  301.470123
+   14.000000  299.497955
+   15.000000  299.817719
+   16.000000  301.906189
+   17.000000  301.176941
+   18.000000  298.554840
+   19.000000  299.704376
+   20.000000  299.179413
+   21.000000  299.526917
+   22.000000  300.345032
+   23.000000  301.228821

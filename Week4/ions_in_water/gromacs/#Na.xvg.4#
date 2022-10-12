@@ -1,0 +1,18 @@
+# This file was created Tue Oct 11 15:35:42 2022
+# Created by:
+#                       :-) GROMACS - gmx msd, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/tp2353/comp-lab-class/Week4/ions_in_water/gromacs
+# Command line:
+#   gmx_mpi msd -f step5_unwrap.gro -s step5_1.tpr -n step5_unwrap.ndx -o Na.xvg
+# gmx msd is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Mean Square Displacement"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "MSD (nm\S2\N)"
+@TYPE xy
+         0           0

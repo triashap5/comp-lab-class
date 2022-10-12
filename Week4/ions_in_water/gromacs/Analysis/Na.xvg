@@ -1,0 +1,71 @@
+# This file was created Tue Oct 11 20:32:33 2022
+# Created by:
+#                       :-) GROMACS - gmx msd, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2022fa/tp2353/comp-lab-class/Week4/ions_in_water/gromacs
+# Command line:
+#   gmx_mpi msd -f unwrap.xtc -s step5_9.tpr -o Na.xvg
+# gmx msd is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Mean Square Displacement"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "MSD (nm\S2\N)"
+@TYPE xy
+# MSD gathered over 1000 ps with 51 restarts
+# Diffusion constants fitted from time 100 to 900 ps
+# D[       SOD] = 2.6170 (+/- 1.1924) (1e-5 cm^2/s)
+         0           0
+        20    0.307697
+        40    0.615036
+        60    0.948387
+        80     1.28111
+       100     1.58501
+       120     1.91491
+       140     2.22314
+       160     2.53693
+       180     2.84476
+       200     3.17717
+       220     3.50874
+       240     3.79723
+       260     4.10874
+       280     4.38999
+       300     4.66269
+       320     4.93316
+       340     5.17973
+       360     5.41437
+       380     5.66294
+       400     5.89821
+       420     6.15561
+       440       6.413
+       460     6.67668
+       480      6.9181
+       500     7.12612
+       520     7.30307
+       540     7.53265
+       560     7.72829
+       580     7.99951
+       600     8.19536
+       620     8.46764
+       640       8.752
+       660     9.03155
+       680     9.31294
+       700     9.72277
+       720      10.141
+       740     10.5052
+       760     11.0069
+       780     11.6296
+       800     12.3902
+       820     13.1589
+       840     13.9532
+       860     14.6846
+       880     15.5241
+       900     16.0364
+       920     16.5883
+       940     17.5064
+       960     18.2498
+       980     19.1227
+      1000     19.6276
