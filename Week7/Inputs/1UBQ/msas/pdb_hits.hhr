@@ -3,8 +3,8 @@ Match_columns 76
 No_of_seqs    117 out of 1885
 Neff          5.29398
 Searched_HMMs 80799
-Date          Tue Oct 25 16:12:53 2022
-Command       /usr/bin/hhsearch -i /state/partition1/job-26275637/tmpnzmflqr9/query.a3m -o /state/partition1/job-26275637/tmpnzmflqr9/output.hhr -maxseq 1000000 -d /alphafold-data/pdb70/pdb70 
+Date          Fri Nov  4 14:08:05 2022
+Command       /usr/bin/hhsearch -i /state/partition1/job-26674669/tmp87tibinb/query.a3m -o /state/partition1/job-26674669/tmp87tibinb/output.hhr -maxseq 1000000 -d /alphafold-data/pdb70/pdb70 
 
  No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
   1 5XXU_f uS2, eS1, uS5, uS3, eS4  99.7 7.5E-21 9.3E-26  127.2   0.0   76    1-76      1-76  (154)
